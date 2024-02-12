@@ -4,6 +4,7 @@
 # Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
 # .\venv\Scripts\Activate
+# .\venv\Scripts\Activate
 
 from fastapi import FastAPI, File,UploadFile,HTTPException
 from fastapi.responses import StreamingResponse
