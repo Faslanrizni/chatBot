@@ -16,6 +16,7 @@ import openai
 from functions.openai_request import convert_audio_to_text, get_chat_response
 # Custome function imports
 
+from functions.database import store_mesages,recet_messages
 
 app = FastAPI()
 
@@ -42,8 +43,14 @@ app.add_middleware(
 
 
 @app.get("/health")
-async def root():
+async def check_health():
     return {"message": "healthy"}
+
+# reset mssages
+@app.get("/reset_conversation")
+async def reset_conversation():
+    recet_messages
+    return {"message": "coversation reset"}
 
 # get audio
 @app.get("/post-audio-get/")
@@ -64,6 +71,14 @@ async def get_audio():
 
    #get chat gpt response
    chat_response = get_chat_response(message_decoded)
+
+   # store messages
+   store_mesages(message_decoded,chat_response)
+
+
+   # store messages
+   store
+
 
    print(chat_response)
 
