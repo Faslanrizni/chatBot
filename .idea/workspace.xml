@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf41f181-25d6-4e03-a098-a37fa07ca197" name="Changes" comment="updated">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/functions/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/functions/database.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="bf41f181-25d6-4e03-a098-a37fa07ca197" name="Changes" comment=" updated now" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +51,7 @@
       <updated>1707726069963</updated>
       <workItem from="1707726071534" duration="333000" />
       <workItem from="1707726440222" duration="1432000" />
-      <workItem from="1707737626950" duration="331000" />
+      <workItem from="1707737626950" duration="512000" />
     </task>
     <task id="LOCAL-00001" summary="updated">
       <created>1707726480403</created>
@@ -64,7 +60,14 @@
       <option name="project" value="LOCAL" />
       <updated>1707726480403</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary=" updated now">
+      <created>1707737990565</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1707737990565</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,6 +87,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated" />
+    <MESSAGE value=" updated now" />
+    <option name="LAST_COMMIT_MESSAGE" value=" updated now" />
   </component>
 </project>
